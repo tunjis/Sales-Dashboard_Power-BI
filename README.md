@@ -1,4 +1,59 @@
+# 📊 Power BI Sales Analysis Dashboard: From Raw Data to Interactive Insights
 
+<a href="placeholder_link_to_power_bi_report.url" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/power-bi.png" width="24" height="24" alt="Power BI"/></a> [Explore the Interactive Dashboard](https://justit831-my.sharepoint.com/:u:/g/personal/justincracium_bootcamp_justit_co_uk/EXAodEp3YfdGofxdK24bYPgBPEmCYP8DBzcpgQZHM11sLQ?e=lP8mJS) | <img src="https://img.icons8.com/color/24/000000/microsoft-excel-2019--v1.png"/> [Original Data Source](https://justit831-my.sharepoint.com/:u:/g/personal/justincracium_bootcamp_justit_co_uk/EXAodEp3YfdGofxdK24bYPgBPEmCYP8DBzcpgQZHM11sLQ?e=lP8mJS)</a> 
+
+**Objective:** To utilise Power BI to **import**, **clean**, and analyse sales data from provided CSV files. The goal was to build an interactive report demonstrating understanding of data modelling (**Star Schema**), **DAX** calculations, and effective **visualisation** techniques learned in class.
+
+**Power BI Implementation Highlights:**
+
+* **Data Preparation & Modelling:**
+    * **Data Import & Cleaning:** Successfully **imported** data from `ListOfOrders.csv` and `OrderBreakdown.csv` using Power BI's **Import mode** (chosen for performance benefits with this dataset size). Utilised Power BI's built-in capabilities to **clean** the dataset, ensuring data types were correct and preparing it for analysis. Datasets were merged based on `Order ID`.
+    * **Structured Data Model:** Designed a **Star Schema** by identifying and relating **Fact** table concepts (like sales transactions from `OrderBreakdown`) and **Dimension** table concepts (like customer details, product details, dates from `ListOfOrders`). Appropriate **one-to-many relationships** were established between dimensions and facts.
+* **DAX Calculations for Analysis:**
+    * **Core Metrics:** Created fundamental **DAX measures** using functions like **`SUM`** to calculate essential figures such as 'Total Sales' and 'Total Profit'.
+    * **Context Modification:** Leveraged the **`CALCULATE`** DAX function to **modify the context** in which calculations were performed, enabling more specific analyses (e.g., potentially isolating sales for a specific region or time period within other calculations).
+    * **Derived Insights:** Developed additional DAX logic to derive analytical results, such as calculating profit margins and determining rankings like the 'Top 5 Products' shown in the visuals.
+* **Interactive Visualisation & Reporting:**
+    * **Diverse Visuals:** Employed a range of standard Power BI **visualisations** (including Bar charts, Line charts, and Maps) to present the data effectively, addressing different analytical questions (trends, comparisons, geographic patterns, rankings).
+    * **Interactive Exploration:** Configured the visuals to interact with each other; for example, selecting data in one visual dynamically filters the information displayed in others, allowing for intuitive data exploration.
+    * **User Filtering:** Included controls allowing users to filter the report data based on key dimensions like category, region, or date.
+    * **Clear Communication:** Assembled the visuals into a coherent report page (`sales_dashboard.png`), focusing on clear labelling and layout for effective communication of insights.
+
+---
+
+### Core Power BI Competencies Demonstrated:
+
+* **Data Import & Cleaning (using Power BI capabilities)**
+* **Data Modelling (Star Schema, Relationships)**
+* **DAX Calculations (SUM, CALCULATE, Measures for KPIs & Ranking)**
+* **Visualisation & Interactive Report Building**
+
+---
+
+## 📊 Example Output: Key Visual Insights
+
+*(Ensure all images are located within an `image/` folder in your repository)*
+
+<table>
+  <tr>
+    <td><img src="image/profit_by_country.png" width="500" height="700" alt="Profit by Country Map Screenshot"/></td>
+    <td><img src="image/sales_and_profit_over_time.png" width="500" height="700" alt="Sales and Profit Over Time Line Chart"/></td>
+  </tr>
+  <tr>
+    <td><img src="image/total_sales_by_category.png" width="500" alt="Total Sales by Category Bar Chart"/></td>
+    <td><img src="image/top_5_products_by_average_sales.png" width="500" alt="Top 5 Products by Average Sales"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+        <img src="image/sum_of_sales_by_region.png" width="500" alt="Sum of Sales by Region Bar Chart"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="image/sales_dashboard.png" width="1000" alt="Sales Dashboard Screenshot"/>
+    </td>
+  </tr>
+</table>
 
 ### 🧑‍💻 Created by [tunjis](https://github.com/tunjis) 
 
