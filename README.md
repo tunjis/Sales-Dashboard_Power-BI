@@ -2,7 +2,6 @@
 
 <a href="placeholder_link_to_power_bi_report.url" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/power-bi.png" width="24" height="24" alt="Power BI"/></a> [Explore the Interactive Dashboard](https://justit831-my.sharepoint.com/:u:/g/personal/justincracium_bootcamp_justit_co_uk/EXAodEp3YfdGofxdK24bYPgBPEmCYP8DBzcpgQZHM11sLQ?e=lP8mJS) | <img src="https://img.icons8.com/color/24/000000/microsoft-excel-2019--v1.png"/> [Original Data Source](https://justit831-my.sharepoint.com/:u:/g/personal/justincracium_bootcamp_justit_co_uk/EXAodEp3YfdGofxdK24bYPgBPEmCYP8DBzcpgQZHM11sLQ?e=lP8mJS)</a> 
 
-**Objective:** To utilise Power BI to **import**, **clean**, and analyse sales data from provided CSV files. The goal was to build an interactive report demonstrating understanding of data modelling (**Star Schema**), **DAX** calculations, and effective **visualisation** techniques learned in class.
 
 **Power BI Implementation Highlights:**
 
