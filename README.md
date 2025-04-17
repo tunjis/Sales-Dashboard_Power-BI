@@ -1,4 +1,4 @@
-# 📊 Power BI Sales Analysis Dashboard: From Raw Data to Interactive Insights
+# 📊 Sales Analysis Dashboard/ Interactive Insights <a href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/24/000000/power-bi.png" width="36" height="36" alt="Power BI"/> **Power BI** </a>&nbsp;  
 
 <a href="placeholder_link_to_power_bi_report.url" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/power-bi.png" width="24" height="24" alt="Power BI"/></a> [Explore the Interactive Dashboard](https://justit831-my.sharepoint.com/:u:/g/personal/justincracium_bootcamp_justit_co_uk/EXAodEp3YfdGofxdK24bYPgBPEmCYP8DBzcpgQZHM11sLQ?e=lP8mJS) | <img src="https://img.icons8.com/color/24/000000/microsoft-excel-2019--v1.png"/> [Original Data Source](https://justit831-my.sharepoint.com/:u:/g/personal/justincracium_bootcamp_justit_co_uk/EXAodEp3YfdGofxdK24bYPgBPEmCYP8DBzcpgQZHM11sLQ?e=lP8mJS)</a> 
 
@@ -7,7 +7,7 @@
 **Power BI Implementation Highlights:**
 
 * **Data Preparation & Modelling:**
-    * **Data Import & Cleaning:** Successfully **imported** data from `ListOfOrders.csv` and `OrderBreakdown.csv` using Power BI's **Import mode** (chosen for performance benefits with this dataset size). Utilised Power BI's built-in capabilities to **clean** the dataset, ensuring data types were correct and preparing it for analysis. Datasets were merged based on `Order ID`.
+    * **Data Import & Cleaning:** Successfully **imported** data from the two tabs sheets `ListOfOrders.csv` and `OrderBreakdown.csv`. Utilised Power BI's built-in capabilities to **clean** the dataset, ensuring data types were correct and preparing it for analysis. Datasets were merged based on `Order ID`.
     * **Structured Data Model:** Designed a **Star Schema** by identifying and relating **Fact** table concepts (like sales transactions from `OrderBreakdown`) and **Dimension** table concepts (like customer details, product details, dates from `ListOfOrders`). Appropriate **one-to-many relationships** were established between dimensions and facts.
 * **DAX Calculations for Analysis:**
     * **Core Metrics:** Created fundamental **DAX measures** using functions like **`SUM`** to calculate essential figures such as 'Total Sales' and 'Total Profit'.
@@ -32,12 +32,15 @@
 
 ## 📊 Example Output: Key Visual Insights
 
-*(Ensure all images are located within an `image/` folder in your repository)*
-
 <table>
-  <tr>
-    <td><img src="image/profit_by_country.png" width="500" height="700" alt="Profit by Country Map Screenshot"/></td>
-    <td><img src="image/sales_and_profit_over_time.png" width="500" height="700" alt="Sales and Profit Over Time Line Chart"/></td>
+   <tr>
+    <td colspan="2" align="center">
+      <img src="image/sales_dashboard.png" width="1000" alt="Sales Dashboard Screenshot"/>
+    </td>
+  </tr>
+   <tr>
+    <td><img src="image/profit_by_country.png" width="500" height="500" alt="Profit by Country Map Screenshot"/></td>
+    <td><img src="image/sales_and_profit_over_time.png" width="500" height="500" alt="Sales and Profit Over Time Line Chart"/></td>
   </tr>
   <tr>
     <td><img src="image/total_sales_by_category.png" width="500" alt="Total Sales by Category Bar Chart"/></td>
@@ -46,11 +49,6 @@
   <tr>
     <td colspan="2" align="center">
         <img src="image/sum_of_sales_by_region.png" width="500" alt="Sum of Sales by Region Bar Chart"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="image/sales_dashboard.png" width="1000" alt="Sales Dashboard Screenshot"/>
     </td>
   </tr>
 </table>
